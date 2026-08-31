@@ -10,52 +10,47 @@
     <meta name="description"
         content="Hidec is a modern Windows folder encryption software using AES-256-GCM encryption with PIN protection.">
 
-    <link rel="icon" href="assets/favicon.ico">
+    <meta name="keywords"
+        content="Hidec, Folder Encryption, AES-256, Windows Security, Folder Lock, Privacy">
 
-    <!-- Google Font -->
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
 
-    <header class="navbar">
-
-        <div class="nav-container">
-
-            <a href="#" class="logo">
-                <img src="assets/logo.png" alt="Hidec Logo">
+            <div class="logo">
+                <img src="logo.png" alt="Hidec Logo">
                 <span>Hidec</span>
-            </a>
+            </div>
 
-            <nav>
+            <div class="nav-links">
                 <a href="#features">Features</a>
                 <a href="#security">Security</a>
                 <a href="#screenshots">Screenshots</a>
                 <a href="#download">Download</a>
 
-                <a href="https://github.com/neerajbuilds/Hidec"
-                   target="_blank"
-                   class="github-btn">
+                <a class="github-btn"
+                    href="https://github.com/neerajbuilds/Hidec"
+                    target="_blank">
                     GitHub
                 </a>
-            </nav>
+            </div>
 
-        </div>
-
+        </nav>
     </header>
 
 
-    <!-- ================= HERO ================= -->
-
+    <!-- HERO -->
     <section class="hero">
 
         <div class="hero-content">
@@ -75,25 +70,21 @@
                 <p>
                     Hidec is a modern Windows application that encrypts
                     your folders using AES-256-GCM encryption with secure
-                    PIN protection.
-                </p>
-
-                <p>
-                    Everything happens completely offline.
+                    PIN protection. Everything happens completely offline.
                     No cloud. No tracking. Just security.
                 </p>
 
                 <div class="hero-buttons">
 
                     <a class="btn primary"
-                       href="https://github.com/neerajbuilds/Hidec/releases/latest"
-                       target="_blank">
-                        ⬇ Download Now
+                        href="https://github.com/neerajbuilds/Hidec/releases/latest"
+                        target="_blank">
+                        ⬇ Download Now →
                     </a>
 
                     <a class="btn secondary"
-                       href="https://github.com/neerajbuilds/Hidec"
-                       target="_blank">
+                        href="https://github.com/neerajbuilds/Hidec"
+                        target="_blank">
                         ◉ View Source
                     </a>
 
@@ -106,8 +97,8 @@
 
                 <div class="app-preview">
 
-                    <img src="assets/hero-dashboard.png"
-                         alt="Hidec Dashboard">
+                    <img src="hero-dashboard.png"
+                        alt="Hidec Dashboard">
 
                 </div>
 
@@ -118,9 +109,8 @@
     </section>
 
 
-    <!-- ================= FEATURES ================= -->
-
-    <section id="features" class="features">
+    <!-- FEATURES -->
+    <section id="features" class="section">
 
         <div class="section-title">
 
@@ -129,7 +119,7 @@
             <h2>
                 Powerful Security.
                 <br>
-                <span>Simple to Use.</span>
+                <strong>Simple to Use.</strong>
             </h2>
 
             <p>
@@ -144,9 +134,7 @@
 
             <div class="feature-card">
 
-                <div class="feature-icon">
-                    🛡️
-                </div>
+                <div class="feature-icon">🛡️</div>
 
                 <h3>AES-256-GCM</h3>
 
@@ -160,9 +148,7 @@
 
             <div class="feature-card">
 
-                <div class="feature-icon">
-                    🔐
-                </div>
+                <div class="feature-icon">🔐</div>
 
                 <h3>PIN Protection</h3>
 
@@ -176,9 +162,7 @@
 
             <div class="feature-card">
 
-                <div class="feature-icon">
-                    💻
-                </div>
+                <div class="feature-icon">💻</div>
 
                 <h3>100% Offline</h3>
 
@@ -192,9 +176,7 @@
 
             <div class="feature-card">
 
-                <div class="feature-icon">
-                    ⚡
-                </div>
+                <div class="feature-icon">⚡</div>
 
                 <h3>Easy to Use</h3>
 
@@ -210,9 +192,8 @@
     </section>
 
 
-    <!-- ================= SECURITY ================= -->
-
-    <section id="security" class="security">
+    <!-- SECURITY -->
+    <section id="security" class="security-section">
 
         <div class="security-content">
 
@@ -264,8 +245,8 @@
 
             <div class="security-image">
 
-                <img src="assets/light-dashboard.png"
-                     alt="Hidec Light Dashboard">
+                <img src="light-dashboard.png"
+                    alt="Hidec Light Dashboard">
 
             </div>
 
@@ -274,8 +255,7 @@
     </section>
 
 
-    <!-- ================= SCREENSHOTS ================= -->
-
+    <!-- SCREENSHOTS -->
     <section id="screenshots" class="screenshots">
 
         <div class="section-title">
@@ -284,38 +264,50 @@
 
             <h2>
                 Built with a
-                <span>Modern Interface.</span>
+                <strong>Modern Interface.</strong>
             </h2>
-
-            <p>
-                Simple controls. Clear information.
-                Powerful protection.
-            </p>
 
         </div>
 
 
         <div class="gallery">
 
-            <img src="assets/login-screen.png"
-                 alt="Hidec Login Screen">
+            <div class="gallery-item">
 
-            <img src="assets/hero-dashboard.png"
-                 alt="Hidec Dashboard">
+                <img src="login-screen.png"
+                    alt="Hidec Login Screen">
 
-            <img src="assets/light-dashboard.png"
-                 alt="Hidec Light Theme">
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img src="hero-dashboard.png"
+                    alt="Hidec Dashboard">
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img src="light-dashboard.png"
+                    alt="Hidec Light Theme">
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- ================= DOWNLOAD ================= -->
-
-    <section id="download" class="download">
+    <!-- DOWNLOAD -->
+    <section id="download" class="download-section">
 
         <div class="download-box">
+
+            <span class="tag">
+                💻 WINDOWS 11
+            </span>
 
             <h2>
                 Ready to Protect
@@ -324,21 +316,22 @@
             </h2>
 
             <p>
-                Download Hidec and keep your important folders protected
-                with strong local encryption.
+                Download Hidec and keep your important folders
+                protected with strong local encryption.
             </p>
+
 
             <div class="hero-buttons">
 
                 <a class="btn primary"
-                   href="https://github.com/neerajbuilds/Hidec/releases/latest"
-                   target="_blank">
-                    ↓ Download Hidec
+                    href="https://github.com/neerajbuilds/Hidec/releases/latest"
+                    target="_blank">
+                    ⬇ Download Hidec
                 </a>
 
                 <a class="btn secondary"
-                   href="https://github.com/neerajbuilds/Hidec"
-                   target="_blank">
+                    href="https://github.com/neerajbuilds/Hidec"
+                    target="_blank">
                     View on GitHub
                 </a>
 
@@ -349,19 +342,14 @@
     </section>
 
 
-    <!-- ================= FOOTER ================= -->
-
+    <!-- FOOTER -->
     <footer>
 
         <div class="footer-content">
 
-            <div class="footer-logo">
-
-                <img src="assets/logo.png"
-                     alt="Hidec Logo">
-
-                <strong>Hidec</strong>
-
+            <div class="logo">
+                <img src="logo.png" alt="Hidec Logo">
+                <span>Hidec</span>
             </div>
 
             <p>
@@ -369,18 +357,21 @@
             </p>
 
             <a href="https://github.com/neerajbuilds/Hidec"
-               target="_blank">
+                target="_blank">
                 GitHub
             </a>
 
         </div>
 
-        <p class="copyright">
+        <div class="copyright">
             © 2026 Hidec. Built for privacy.
-        </p>
+        </div>
 
     </footer>
 
 
+    <script src="script.js"></script>
+
 </body>
+
 </html>
