@@ -1,66 +1,386 @@
-<section class="hero">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="hero-content">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <div class="hero-left">
+    <title>Hidec | Secure Folder Encryption for Windows</title>
 
-            <span class="tag">🔒 Secure Folder Encryption</span>
+    <meta name="description"
+        content="Hidec is a modern Windows folder encryption software using AES-256-GCM encryption with PIN protection.">
 
-            <h1>
-                Protect Your Files with
-                <span>Military-Grade Encryption</span>
-            </h1>
+    <link rel="icon" href="assets/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Hidec Logo">
+                <span>Hidec</span>
+            </a>
+
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#security">Security</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#download">Download</a>
+
+                <a href="https://github.com/neerajbuilds/Hidec"
+                   target="_blank"
+                   class="github-btn">
+                    GitHub
+                </a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-left">
+
+                <span class="tag">
+                    🔒 AES-256-GCM Encryption
+                </span>
+
+                <h1>
+                    Secure Your Folders.
+                    <br>
+                    Own Your <span>Privacy.</span>
+                </h1>
+
+                <p>
+                    Hidec is a modern Windows application that encrypts
+                    your folders using AES-256-GCM encryption with secure
+                    PIN protection.
+                </p>
+
+                <p>
+                    Everything happens completely offline.
+                    No cloud. No tracking. Just security.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a class="btn primary"
+                       href="https://github.com/neerajbuilds/Hidec/releases/latest"
+                       target="_blank">
+                        ⬇ Download Now
+                    </a>
+
+                    <a class="btn secondary"
+                       href="https://github.com/neerajbuilds/Hidec"
+                       target="_blank">
+                        ◉ View Source
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-right">
+
+                <div class="app-preview">
+
+                    <img src="assets/hero-dashboard.png"
+                         alt="Hidec Dashboard">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features" class="features">
+
+        <div class="section-title">
+
+            <span>FEATURES</span>
+
+            <h2>
+                Powerful Security.
+                <br>
+                <span>Simple to Use.</span>
+            </h2>
 
             <p>
-                Encrypt folders using AES-256-GCM encryption and PIN protection.
-                Everything happens locally on your Windows PC.
-                No cloud. No tracking. No compromises.
+                Hidec provides strong file protection without complicated
+                cloud services or accounts.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🛡️
+                </div>
+
+                <h3>AES-256-GCM</h3>
+
+                <p>
+                    Industry-standard authenticated encryption keeps
+                    your files protected from unauthorized access.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔐
+                </div>
+
+                <h3>PIN Protection</h3>
+
+                <p>
+                    Secure your encrypted folders with a private PIN.
+                    Your PIN is never stored directly.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    💻
+                </div>
+
+                <h3>100% Offline</h3>
+
+                <p>
+                    Your files stay on your Windows PC.
+                    No cloud uploads and no tracking.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <h3>Easy to Use</h3>
+
+                <p>
+                    Protect folders quickly with a simple and modern
+                    desktop interface.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SECURITY ================= -->
+
+    <section id="security" class="security">
+
+        <div class="security-content">
+
+            <div class="security-text">
+
+                <span class="tag">
+                    🔒 SECURITY
+                </span>
+
+                <h2>
+                    Your Files.
+                    <br>
+                    <span>Your Control.</span>
+                </h2>
+
+                <p>
+                    Hidec is designed around privacy. Encryption happens
+                    locally on your computer, so your sensitive files
+                    never need to leave your device.
+                </p>
+
+
+                <div class="security-list">
+
+                    <div>
+                        <strong>✓ AES-256-GCM</strong>
+                        <span>Authenticated encryption</span>
+                    </div>
+
+                    <div>
+                        <strong>✓ PBKDF2-SHA256</strong>
+                        <span>600,000 iterations for key derivation</span>
+                    </div>
+
+                    <div>
+                        <strong>✓ Local Processing</strong>
+                        <span>No cloud dependency</span>
+                    </div>
+
+                    <div>
+                        <strong>✓ PIN Protection</strong>
+                        <span>Secure access to your vault</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="security-image">
+
+                <img src="assets/light-dashboard.png"
+                     alt="Hidec Light Dashboard">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SCREENSHOTS ================= -->
+
+    <section id="screenshots" class="screenshots">
+
+        <div class="section-title">
+
+            <span>APPLICATION</span>
+
+            <h2>
+                Built with a
+                <span>Modern Interface.</span>
+            </h2>
+
+            <p>
+                Simple controls. Clear information.
+                Powerful protection.
+            </p>
+
+        </div>
+
+
+        <div class="gallery">
+
+            <img src="assets/login-screen.png"
+                 alt="Hidec Login Screen">
+
+            <img src="assets/hero-dashboard.png"
+                 alt="Hidec Dashboard">
+
+            <img src="assets/light-dashboard.png"
+                 alt="Hidec Light Theme">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DOWNLOAD ================= -->
+
+    <section id="download" class="download">
+
+        <div class="download-box">
+
+            <h2>
+                Ready to Protect
+                <br>
+                Your Files?
+            </h2>
+
+            <p>
+                Download Hidec and keep your important folders protected
+                with strong local encryption.
             </p>
 
             <div class="hero-buttons">
 
-                <a
-                    class="btn primary"
-                    href="https://github.com/neerajbuilds/Hidec/releases/latest"
-                    target="_blank"
-                >
-                    Download for Windows
+                <a class="btn primary"
+                   href="https://github.com/neerajbuilds/Hidec/releases/latest"
+                   target="_blank">
+                    ↓ Download Hidec
                 </a>
 
-                <a
-                    class="btn secondary"
-                    href="https://github.com/neerajbuilds/Hidec"
-                    target="_blank"
-                >
+                <a class="btn secondary"
+                   href="https://github.com/neerajbuilds/Hidec"
+                   target="_blank">
                     View on GitHub
                 </a>
 
             </div>
 
-            <div class="hero-badges">
+        </div>
 
-                <div>🛡 AES-256-GCM</div>
-                <div>🔒 100% Offline</div>
-                <div>💻 Windows 11</div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <img src="assets/logo.png"
+                     alt="Hidec Logo">
+
+                <strong>Hidec</strong>
 
             </div>
 
-        </div>
+            <p>
+                Secure Folder Encryption for Windows.
+            </p>
 
-
-        <div class="hero-right">
-
-            <div class="app-preview">
-
-                <img
-                    src="assets/hero-dashboard.png"
-                    alt="Hidec Dashboard"
-                >
-
-            </div>
+            <a href="https://github.com/neerajbuilds/Hidec"
+               target="_blank">
+                GitHub
+            </a>
 
         </div>
 
-    </div>
+        <p class="copyright">
+            © 2026 Hidec. Built for privacy.
+        </p>
 
-</section>
+    </footer>
+
+
+</body>
+</html>
